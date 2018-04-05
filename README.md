@@ -1,0 +1,1 @@
+`Karma Basic HTML JS Addition Test case`
