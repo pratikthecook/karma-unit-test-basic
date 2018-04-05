@@ -6,3 +6,5 @@ Tutorial Reference : http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/
 `npm test`
 
 **Added Coverage using Istanbul**
+
+**Added Fixtures using `karma-fixture`**
