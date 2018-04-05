@@ -5,19 +5,14 @@ describe('Calculator',function () {
 
     beforeEach(
      function () {
-        var fixture = '<div id="fixture">'+
-                      '<input type="text" id="num1" placeholder="Number 1"/>' +
-                      '<input type="text" id="num2" placeholder="Number 2"/>' +
-                      '<button id="add">Add</button>'+
-                      'Result: <span id="result" /></div>';
-
-        document.body.insertAdjacentHTML('afterbegin',fixture);
+        fixture.base = 'src/test/fixtures';
+        fixture.load('calculator.html');
     });
 
 
     afterEach(
      function () {
-         document.body.removeChild(document.getElementById('fixture'));
+         fixture.cleanup();
     });
 
     beforeEach(function() {
