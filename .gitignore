@@ -3,3 +3,6 @@
 
 # IDE
 /.idea
+
+# NPM
+package-lock.json

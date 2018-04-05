@@ -15,10 +15,10 @@ describe('Calculator',function () {
     });
 
 
-   /* afterEach(
+    afterEach(
      function () {
          document.body.removeChild(document.getElementById('fixture'));
-    });*/
+    });
 
     beforeEach(function() {
         window.calculator.init();
